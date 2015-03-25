@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="multimedia_playwav" id="12" x="-78" y="-339">
-    <field name="WAV">"APPLAUSE"</field>
+    <field name="WAV">"APPLAUSE.w"</field>
   </block>
 </xml>
