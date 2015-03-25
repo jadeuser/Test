@@ -1,18 +1,18 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="129" inline="true" x="-205" y="-459">
+  <block type="controls_repeat" id="1" inline="true" x="-205" y="-459">
     <value name="TIMES">
-      <block type="math_number" id="181">
+      <block type="math_number" id="2">
         <field name="NUM">4</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="91">
+      <block type="movement_forward" id="3">
         <next>
-          <block type="movement_forward" id="101">
+          <block type="movement_forward" id="4">
             <next>
-              <block type="movement_right" id="112">
+              <block type="movement_right" id="5">
                 <next>
-                  <block type="movement_right" id="122"></block>
+                  <block type="movement_right" id="6"></block>
                 </next>
               </block>
             </next>
