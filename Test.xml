@@ -1,25 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="1" inline="true" x="-205" y="-459">
-    <value name="TIMES">
-      <block type="math_number" id="2">
-        <field name="NUM">4</field>
+  <block type="oled_cleardisplay" id="15" x="-78" y="-428">
+    <next>
+      <block type="oled_drawtext" id="24">
+        <field name="TEXT">I love BMax</field>
       </block>
-    </value>
-    <statement name="DO">
-      <block type="movement_forward" id="3">
-        <next>
-          <block type="robot_delay" id="17" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="27">
-                <field name="NUM">2000</field>
-              </block>
-            </value>
-            <next>
-              <block type="movement_right" id="5"></block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </statement>
+    </next>
   </block>
 </xml>
