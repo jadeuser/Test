@@ -15,6 +15,11 @@
         <next>
           <block type="oled_drawtext" id="5">
             <field name="TEXT">Everything is awesome</field>
+            <next>
+              <block type="multimedia_playwav" id="12">
+                <field name="WAV">APPLAUSE</field>
+              </block>
+            </next>
           </block>
         </next>
       </block>
