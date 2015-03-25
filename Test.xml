@@ -17,7 +17,7 @@
             <field name="TEXT">Everything is awesome</field>
             <next>
               <block type="multimedia_playwav" id="12">
-                <field name="WAV">APPLAUSE</field>
+                <field name="WAV">APPLAUSE.wav</field>
               </block>
             </next>
           </block>
