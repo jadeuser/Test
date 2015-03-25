@@ -1,8 +1,22 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="oled_cleardisplay" id="15" x="-78" y="-428">
     <next>
-      <block type="oled_drawtext" id="24">
-        <field name="TEXT">I love BMax</field>
+      <block type="oled_setcursor" id="33" inline="true">
+        <value name="STARTX">
+          <block type="math_number" id="40">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <value name="STARTY">
+          <block type="math_number" id="41">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <next>
+          <block type="oled_drawtext" id="24">
+            <field name="TEXT">I love BMax</field>
+          </block>
+        </next>
       </block>
     </next>
   </block>
