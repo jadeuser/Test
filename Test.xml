@@ -6,7 +6,11 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_reverse" id="3"></block>
+      <block type="movement_forward" id="13">
+        <next>
+          <block type="movement_right" id="23"></block>
+        </next>
+      </block>
     </statement>
   </block>
 </xml>
