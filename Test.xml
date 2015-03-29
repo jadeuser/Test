@@ -1,15 +1,25 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_right" id="11" x="116" y="59">
-    <next>
-      <block type="movement_right" id="21">
+  <block type="controls_whileUntil" id="11" inline="false" x="82" y="33">
+    <field name="MODE">WHILE</field>
+    <value name="NUMBER">
+      <block type="sensor_button" id="27">
+        <field name="OBJECT">ENTER</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="movement_right" id="1">
         <next>
-          <block type="movement_right" id="31">
+          <block type="movement_right" id="2">
             <next>
-              <block type="movement_forward" id="41"></block>
+              <block type="movement_right" id="3">
+                <next>
+                  <block type="movement_forward" id="4"></block>
+                </next>
+              </block>
             </next>
           </block>
         </next>
       </block>
-    </next>
+    </statement>
   </block>
 </xml>
